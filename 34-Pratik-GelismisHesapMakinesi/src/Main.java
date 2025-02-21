@@ -12,10 +12,6 @@ public class Main {
         for (int i = 1; i <= counter; i++){
             System.out.print(i + ". sayı: ");
             number = scan.nextInt();
-            if (i == 1){
-                result += number;
-                continue;
-            }
             result += number;
         }
         System.out.println("---------------------------------");
